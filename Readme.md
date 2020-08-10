@@ -1,5 +1,5 @@
 ## Portfolio
--  single-webpage for beiginers.
+-  single-webpage for beginners.
 ## Getting Started
 - This is a simple single webpage to create portfolio.
 ## Built With
