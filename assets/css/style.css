@@ -202,3 +202,93 @@ section {
   border-radius: 4px;
   padding: 4px;
 }
+/* ===========================
+     media query
+=========================== */
+
+@media only screen and (max-width: 600px) {
+  .main {
+    width: 45rem;
+    height: 200vh;
+    background: #0cf3f3;
+    clip-path: polygon(0% 0%,100% 0%,100% 100%,0% 100%);
+  }
+
+  nav {
+    width: 20.5rem;
+    height: 6.6rem;
+  }
+  
+  .logo {
+    width: 40%;
+    height: 1.0rem;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    left: 7.6rem;
+    top: 10px;
+  }
+
+  .resume {
+    position: absolute;
+    right: -8.5rem;
+    top: 2.7rem;
+  }
+  
+  section {
+    display: inline-block;
+    width: 180vw;
+    height: 180vh;
+  }
+
+  .left {
+    width: 140vw;
+    height: 50vh;
+    overflow: hidden;
+    margin-top: 1.5rem;
+    position: relative;
+    left: 7.5rem;
+    top: 2.6rem;
+  }
+
+  .left img {
+    width: 27.0rem;
+    height: 20rem;
+    position: relative;
+    bottom: 0.2rem;
+  }
+
+  .right {
+    width: 140vw;
+    height: 80vh;
+    margin-top: 80px;
+    position: relative;
+    top: auto;
+    right: -55px;
+  
+  }
+  
+  .right h1 {
+    position: relative;
+    bottom: 0.8rem;
+  }
+  
+  .right h1:after {
+    content: "";
+    width: 35px;
+    height: 3px;
+    position: absolute;
+    top:48% ;
+    left: 30%;
+  }
+  
+  .right a {
+    position: relative;
+    bottom: -2.6rem;
+  }
+
+  .right p {
+    position: relative;
+    bottom: 0.2rem;
+  } 
+}
+
