@@ -6,7 +6,7 @@ This is a simple single webpage to create portfolio.
 - HTML
 - CSS
 ## Demo link
-- [click here](http://single-webpage.herokuapp.com/)
+[click here](http://single-webpage.herokuapp.com/)
 ## Authors
-Sambhu Ptara Email-psambhu793@gmail.com
+Sambhu Ptara psambhu793@gmail.com
 
