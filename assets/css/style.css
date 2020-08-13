@@ -239,11 +239,15 @@ section {
   .left {
     width: 100%;
     height: auto;
+    position: relative;
+    top: 2.7rem;
   }
 
   .left img {
     width: 100%;
     height: auto;
+    position: relative;
+    top: 0.4rem;
   }
 
   .right {
